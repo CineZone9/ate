@@ -2,9 +2,9 @@ const mineflayer = require('mineflayer');
 const { pathfinder, Movements, goals } = require('mineflayer-pathfinder');
 
 const config = {
-  host: process.env.MC_HOST || 'Ninenonen.aternos.me',
-  port: parseInt(process.env.MC_PORT) || ,
-  username: process.env.MC_USERNAME || 'PlayerAI',
+  host: process.env.MC_HOST || 'RobGie2010-sLMB.aternos.me',
+  port: parseInt(process.env.MC_PORT) || 27982,
+  username: process.env.MC_USERNAME || 'PlayerAI-1',
   password: process.env.MC_PASSWORD || undefined,
   version: process.env.MC_VERSION || false,
   auth: process.env.MC_AUTH || 'offline',
